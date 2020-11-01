@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:gravity="center"
+        android:text="Tìm Sản Phẩm"
+        android:textSize="32sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Tên sản phẩm:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/txtTenSanPhamTim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnTim"
+        android:text="Tìm"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_margin="2sp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnHuyTim"
+        android:text="Huỷ Tìm"
+        android:layout_margin="2sp"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

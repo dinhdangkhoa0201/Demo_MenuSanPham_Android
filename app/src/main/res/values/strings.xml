@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DemoMenuSanPham</string>
+    <string-array name="dvt">
+        <item>Cái</item>
+        <item>Thùng</item>
+    </string-array>
+</resources>
